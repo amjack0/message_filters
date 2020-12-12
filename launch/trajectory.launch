@@ -1,0 +1,4 @@
+<launch>
+  <node name="simple_trajectory" pkg="simple_trajectory" type="simple_trajectory_node" output="screen"/>
+  <node pkg="rosservice" type="rosservice" name="rosservice" args="call /gazebo/reset_simulation"/>
+</launch>
